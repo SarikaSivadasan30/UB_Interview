@@ -23,8 +23,8 @@ describe("Purchase Product Flow", () => {
     cy.get('.shopping_cart_link').click();
     cy.get('[data-test="checkout"]').click();
 
-    cy.get('[data-test="firstName"]').type("John");
-    cy.get('[data-test="lastName"]').type("Doe");
+    cy.get('[data-test="firstName"]').type("Alex");
+    cy.get('[data-test="lastName"]').type("Alex");
     cy.get('[data-test="postalCode"]').type("12345");
     cy.get('[data-test="continue"]').click();
 

@@ -20,6 +20,10 @@ To run the test you need to run the following command:
 ```bash
 yarn cypress:tests
 ```
+To run the test in headless mode you need to run the following command:
+```bash
+yarn cypress:ci:tests
+```
 
 ## Test Descriptions
 
